@@ -1,5 +1,11 @@
 # @sngn/eslint-plugin-split-and-sort-imports
 
+## 0.4.2
+
+### Patch Changes
+
+- 84799f9: fix types generation after migration
+
 ## 0.4.1
 
 ### Patch Changes
