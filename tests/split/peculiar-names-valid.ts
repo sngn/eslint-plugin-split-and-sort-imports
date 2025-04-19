@@ -1,0 +1,10 @@
+import type { typeA } from "./t";
+import type { TypeA } from "./t";
+import type { typeB } from "./t";
+import type { TypeB } from "./t";
+import { typeC } from "./t";
+import type { typeD } from "./t";
+import { TypeC } from "./t";
+import type { TypeD } from "./t";
+import type { typeE } from "./t";
+import { TypeE } from "./t";

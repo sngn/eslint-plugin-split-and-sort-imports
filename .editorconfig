@@ -1,0 +1,61 @@
+# https://editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+
+[*.cs]
+indent_size = 4
+indent_style = space
+trim_trailing_whitespace = true
+
+[*.cshtml]
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{css,scss}]
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{cjs,js,json,mjs,ts}]
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.html]
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+end_of_line = lf
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = false
+
+[*.py]
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.svelte]
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[Makefile]
+indent_style = tab
+

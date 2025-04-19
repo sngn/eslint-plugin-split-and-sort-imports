@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "rootDir": "./tests"
+  },
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/generated/sort-schema.d.ts",
+    "tests/**/*.js",
+    "tests/**/*.ts",
+  ],
+}

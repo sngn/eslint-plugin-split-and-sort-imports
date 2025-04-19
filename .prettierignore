@@ -1,0 +1,10 @@
+CHANGELOG*.md
+/.changeset/
+dist/
+jsconfig.json
+pnpm-lock.yaml
+src/generated/
+tests/
+tsconfig.json
+tsconfig*.json
+
