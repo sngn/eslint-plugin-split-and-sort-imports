@@ -20,7 +20,7 @@ const rules = {
 
 /** @type {Plugin} */
 const plugin = {
-  configs: {},
+  //configs: {},
   meta: {
     name: pkg.name,
     version: pkg.version,
@@ -28,7 +28,8 @@ const plugin = {
   rules,
 };
 
-Object.assign(/** @type {Config} */ (plugin.configs), {
+/** @type {Record<"minimal"|"recommended", Config[]>} */
+const configurations = {
   minimal: [
     {
       plugins: {
@@ -51,6 +52,8 @@ Object.assign(/** @type {Config} */ (plugin.configs), {
       },
     },
   ],
-});
+};
+
+plugin.configs = configurations;
 
 export default plugin;
