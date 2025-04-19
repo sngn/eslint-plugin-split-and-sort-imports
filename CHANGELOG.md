@@ -1,5 +1,11 @@
 # @sngn/eslint-plugin-split-and-sort-imports
 
+## 0.4.1
+
+### Patch Changes
+
+- acfda42: Migration from sngn/sngn and updated dependencies
+
 ## 0.4.0
 
 ### Minor Changes
