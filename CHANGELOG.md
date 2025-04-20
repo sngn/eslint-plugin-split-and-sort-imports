@@ -1,5 +1,11 @@
 # @sngn/eslint-plugin-split-and-sort-imports
 
+## 0.4.3
+
+### Patch Changes
+
+- fb6476f: improved types
+
 ## 0.4.2
 
 ### Patch Changes

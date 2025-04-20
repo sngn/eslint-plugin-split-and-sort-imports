@@ -1,6 +1,6 @@
 {
   "name": "@sngn/eslint-plugin-split-and-sort-imports",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Autofixes eslint 'sort-imports' rule and splits multiple imports into multiple lines",
   "keywords": [
     "eslint",
