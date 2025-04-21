@@ -71,6 +71,22 @@ Also, for all but the first import, comments above, that are not associated with
 
 ## Installation and Usage
 
+### Installation
+
+The package's name is `@sngn/eslint-plugin-split-and-sort-imports`  
+
+Install with `npm`:
+```js
+npm install --save-dev @sngn/eslint-plugin-split-and-sort-imports
+```
+
+Install with `pnpm`:
+```js
+pnpm add --save-dev @sngn/eslint-plugin-split-and-sort-imports
+```
+
+### Usage
+
 In `eslint.config.js`, import the plugin
 
 ```js
@@ -102,11 +118,13 @@ export default [
 Or customize... this example separates import groups with a newline and enables the "type" group.
 
 ```js
+import splitAndSortImports from "@sngn/eslint-plugin-split-and-sort-imports";
+
 export default [
   /* ... other stuff */
   {
     plugins: {
-      "split-and-sort-imports": plugin,
+      "split-and-sort-imports": splitAndSortImports,
     },
     rules: {
       "split-and-sort-imports/sort-imports": [
@@ -125,7 +143,9 @@ export default [
 ### sort-imports
 
 This rule sorts imports according to the [sort-imports](https://eslint.org/docs/latest/rules/sort-imports) rule.  
+
 It does not sort 'multiple' imports, as the eslint rule already does that, and also doesn't sort them before 'single' imports (it doesn't fix the "Expected 'multiple' syntax before 'single' syntax" message). Although that is not an issue if 'split-imports' is enabled.  
+
 This rule is auto-fixable.
 
 #### Configuration
@@ -244,7 +264,9 @@ For instance, if you set this on "style" group, 'sideEffect' type imports are so
 ### split-imports
 
 When enabled, this rule splits lines with 'multiple' import syntax into single lines.
+
 There is no further configuration.  
+
 This rule is auto-fixable.
 
 ## Examples
